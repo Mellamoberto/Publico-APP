@@ -1,71 +1,140 @@
 <!DOCTYPE html>
 <html lang="es">
 <!--Autor: Alberto Palomo Pino
-    Fecha Inicio: 14/10/2022
-    Fecha final:
-    Lenguaje de marcas DAM 2022/2023-->
+        Tarea 1: Curriculum HTML
+        Fecha: 19/10/2022-->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea 1: Currículum</title>
+    <title>CV Alberto Palomo Pino</title>
+
     <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
+        * {
+            box-sizing: border-box;
         }
 
         h1 {
-            text-align: center;
-            box-sizing: border-box;
-            padding: 0%;
-            margin: 0%;
-            background-color: black;
             color: white;
+            background-color: black;
+            text-align: center;
             margin-right: 25%;
             margin-left: 25%;
         }
-        main {
-            text-align: left;
-            box-sizing: border-box;
-            overflow: hidden;
-            padding: 0%;
-            margin: 0%;
-            background-color: aquamarine;
-            color: black;
-            margin-right: 47%;
-            margin-left: 15%;
+
+        #mifoto {
+            width: 125px;
+            height: 125px;
+            display: inline-block;
+            margin-left: 0%;
         }
-        h4 {
-            text-align: justify;
-            margin-top: -4%;
+
+        section {
+            background-color: rgb(168, 166, 166);
+            width: 100%;
+            display: inline-block;
+            text-align: center;
         }
+
+
+
+        h2 {
+            text-align: center;
+            width: 50%;
+            margin-bottom: 0%;
+            margin-top: 0%;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+
         p {
-            margin-top: 5%;
-            margin-bottom: 5%;
-            margin-left: 5%;
+            display: inline-block;
+            text-align: center;
+            margin-bottom: 0%;
+            margin-top: 0%;
+            margin-left: 25%;
+            margin-right: 25%;
         }
-    
-        
+
+        h3 {
+            border: solid;
+            background-color: white;
+        }
+
+        li {
+            margin-left: 39%;
+            margin-right: 42%;
+            text-align: center;
+        }
+
+        footer {
+            background-color: rgb(241, 80, 80);
+            display: inline-block;
+            padding: 5px;
+            border: solid;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Alberto Palomo Pino</h1>
+    <header>
+        <h1>Alberto Palomo Pino</h1>
+    </header>
 
-    <main>
-        <div>
+    <section>
+        <h2>Perfil profesional</h2>
+        <img id="mifoto" src="./img/FOTO APP.PNG" alt="Alberto Palomo Pino">
+        <article>
+            <p> <strong>Comunicador audivisual</strong> , graduado en la universidad de
+                Málaga en el año 2019, experto en la rama de
+                preproducción y coordinador de eventos.</p>
+        </article>
+    </section>
+
+    <section id="1">
+        <h3> Télefono y email </h3>
+        <article>
             <ul>
-                <h2>
-                    <li>Perfil Profesional</li>
-                </h2>
+                <li>620 44 20 09</li>
+                <br>
+                <li>app-del-96@hotmail.com</li>
             </ul>
-                <h4>
-                    <p>Comunicador audivisual, graduado en la universidad de Málaga en el año
-                        2019, experto en la rama de preproducción y coordinador de eventos.</p>
-                </h4>
-        </div>
-    </main>
+        </article>
+    </section>
+
+    <section id="2">
+        <h3>Estudios</h3>
+        <ul>
+            <li>Graduado en comunicación audiovisual por la Universidad de Málaga</li>
+            <br>
+            <li>Curso de nivel principiante en Unity</li>
+        </ul>
+    </section>
+
+    <section id="3">
+        <h3>Experiencia</h3>
+        <ul>
+            <li>Prácticas profesionales en Comutopía en la Universidad de Málaga</li>
+            <br>
+            <li>Dependiente en Copicentro</li>
+            <br>
+            <li>Reponedor en Supercort</li>
+        </ul>
+    </section>
+
+    <section id="4">
+        <h3>Información adicional</h3>
+        <ul>
+            <li>Carnet de conducir B</li>
+            <br>
+            <li>Inglés nivel B1</li>
+        </ul>
+    </section>
+
+    <footer>
+        <a href="index.html">Volver a página inicial</a> 
+    </footer>
 
 
 </body>
