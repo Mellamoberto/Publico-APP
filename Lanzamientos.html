@@ -12,35 +12,43 @@
 
 <body>
     <header>
-        <nav>
-            <div id="user">
 
-                <h3> <a href="">Iniciar Cesión</a></h3>
-                &nbsp
-                &nbsp
-                <h3> <a href="">Crear cuenta</a></h3>
-
-            </div>
-        </nav>
-
-        <div id="hlink">
+        <div id="head">
             <h1>
                 LAUNCH-GAMING
             </h1>
 
-            <nav>
-                <a class="links" href="#">
-                    <h3>Home</h3>
-                </a>
-                <a class="links" href="./Lanzamientos 2.html">
-                    <h3>☆ del mes</h3>
-                </a>
-                <a class="links" href="./micv.html" target="_blank">
-                    <h3>¿Quién soy?</h3>
-                </a>
-            </nav>
+            <div id="enlaces">
+                <nav id="user">
+                    <h3> <a href="">Iniciar Cesión</a></h3>
+                    &nbsp
+                    &nbsp
+                    <h3> <a href="">Crear cuenta</a></h3>
+                </nav>
+
+                <nav id="info">
+                    <button>
+                        <a class="links" href="#">
+                            <h3>Home</h3>
+                        </a>
+                    </button>
+
+                    <button>
+                        <a class="links" href="./Lanzamientos 2.html">
+                            <h3>☆ del mes</h3>
+                        </a>
+                    </button>
+
+                    <button>
+                        <a class="links" href="./micv.html" target="_blank">
+                            <h3>¿Quién soy?</h3>
+                        </a>
+                    </button>
+                </nav>
+            </div>
 
         </div>
+
     </header>
 
     <main>
@@ -49,7 +57,7 @@
                 <div class="category">
                     <h2><a href="">Lanzamientos por relevancia</a></h2>
 
-                    <img id="mes" src="img/mes.jpg" alt="mes">
+                    <img class="fotos" src="./img/relevancia.jpg" alt="Juegos más importantes">
                     <ol>
                         <li>Dead Space</li>
                         <li>Final Fantasy Crisis Core Reunion</li>
@@ -58,9 +66,9 @@
 
                 </div>
 
-                <div class="category">
+                <div class="category" id="foto2">
                     <h2><a href="">Lanzamientos por fecha</a></h2>
-                    <img id="mes" src="./img/mes.jpg" alt="mes">
+                    <img class="fotos" src="./img/mes.jpg" alt="mes">
                     <ol>
                         <li>Dead Space</li>
                         <li>Final Fantasy Crisis Core Reunion</li>
@@ -71,7 +79,7 @@
 
                 <div class="category">
                     <h2><a href="">Lanzamientos por plataforma</a></h2>
-                    <img id="mes" src="./img/mes.jpg" alt="mes">
+                    <img class="fotos" src="./img/consolas.jpg" alt="mes">
                     <ol>
                         <li>Dead Space</li>
                         <li>Final Fantasy Crisis Core Reunion</li>
@@ -81,44 +89,45 @@
             </article>
 
             <aside>
-                <div class="subcategory">
-                    <article>
+                <article id="subcategory">
+                    <div class="sub">
                         <h3>Por determinar</h3>
-                        <ol>
+                        <ul>
+                            <br>
                             <li>UNO</li>
+                            <br>
                             <li>DOS</li>
+                            <br>
                             <li>TRES</li>
-                            <li>CUATRO</li>
-                            <li>CINCO</li>
-                        </ol>
-                    </article>
-                </div>
+                        </ul>
+                    </div>
 
-                <div class="subcategory">
-                    <article>
+                    <div class="sub">
                         <h3>Cambios y retrasos</h3>
-                        <ol>
+                        <ul>
+                            <br>
                             <li>UNO</li>
+                            <br>
                             <li>DOS</li>
+                            <br>
                             <li>TRES</li>
-                            <li>CUATRO</li>
-                            <li>CINCO</li>
-                        </ol>
-                    </article>
-                </div>
+                        </ul>
+                    </div>
 
-                <div class="subcategory">
-                    <article>
+                    <div class="sub">
                         <h3>Últimas fechas confirmadas</h3>
                         <ul>
-                            <li>uno</li>
-                            <li>dos</li>
-                        </ul>
-                    </article>
-                </div>
+                            <br>
+                            <li>UNO</li>
+                            <br>
+                            <li>DOS</li>
+                            <br>
+                            <li>TRES</li>
 
+                        </ul>
+                    </div>
+                </article>
             </aside>
-        </section>
     </main>
 
     <footer>
