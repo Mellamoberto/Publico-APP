@@ -1,0 +1,23 @@
+h2{
+    text-decoration: underline;
+    color: black;
+}
+
+p {
+	color: blue;
+}
+
+body {
+  counter-reset: section;
+}
+
+span{
+	color:blue;
+	background-color: yellow;
+	font-weight: bold;
+}
+
+p::before {
+  counter-increment: section;
+  content: "Verso " counter(section) ": ";
+}
