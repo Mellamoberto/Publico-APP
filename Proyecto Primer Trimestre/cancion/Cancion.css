@@ -1,20 +1,20 @@
+p{
+	color: blue;
+	}
+
 h2{
     text-decoration: underline;
     color: black;
 }
 
-p {
+span{
 	color: blue;
+	background-color: yellow;
+	font-weight: bold;
 }
 
 body {
   counter-reset: section;
-}
-
-span{
-	color:blue;
-	background-color: yellow;
-	font-weight: bold;
 }
 
 p::before {
